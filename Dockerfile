@@ -6,4 +6,4 @@ RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
 RUN apt-get install -y nodejs
 COPY . /app/
 WORKDIR /app/
-CMD bash start
+CMD ["bash", "startup"]
